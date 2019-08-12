@@ -1,0 +1,199 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+11
+1000
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+Reset_Delay
+# storage
+db|Safe.(1).cnf
+db|Safe.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+|users|aluno|desktop|projeto cl2|safe project|lcd_reset_delay.v
+1e173159133f0677a18b6dc78c7da0
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+Reset_Delay:r0
+}
+# macro_sequence
+
+# end
+# entity
+LCD_Controller
+# storage
+db|Safe.(3).cnf
+db|Safe.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+|users|aluno|desktop|projeto cl2|safe project|lcd_controller.v
+d28a856ba2f24b25bf808bf9feef3ebf
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+CLK_Divide
+16
+PARAMETER_SIGNED_DEC
+DEF
+}
+# hierarchies {
+LCD_Controller:u0
+}
+# macro_sequence
+
+# end
+# entity
+Safe
+# storage
+db|Safe.(0).cnf
+db|Safe.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+|users|aluno|desktop|projeto cl2|safe project|safe.v
+ae1d15fd7621806be21855e887b1cc1
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+LCD_INTIAL
+0
+PARAMETER_SIGNED_DEC
+DEF
+LCD_LINE1
+5
+PARAMETER_SIGNED_DEC
+DEF
+LCD_CH_LINE
+21
+PARAMETER_SIGNED_DEC
+DEF
+LCD_LINE2
+22
+PARAMETER_SIGNED_DEC
+DEF
+LUT_SIZE
+38
+PARAMETER_SIGNED_DEC
+DEF
+PASSWORD
+111111111111111111
+PARAMETER_UNSIGNED_BIN
+DEF
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+Servo_Controller
+# storage
+db|Safe.(2).cnf
+db|Safe.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+|users|aluno|desktop|projeto cl2|safe project|servo_controller.v
+4dd79ea8d742a801ff37962107b080
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+Servo_Controller:s0
+}
+# macro_sequence
+
+# end
+# complete
+
